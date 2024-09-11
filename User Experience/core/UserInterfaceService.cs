@@ -9,6 +9,7 @@ using Debug = UnityEngine.Debug;
 
 namespace ATG.UI
 {
+    //TODO: Inject CancellationToken into async methods -_-
     public sealed class UserInterfaceService : IUserInterfaceService
     {
         public static UserInterfaceDIResolver DIResolver { get; private set; }
